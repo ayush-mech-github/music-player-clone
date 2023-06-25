@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saavan - Play the music you love</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.jpg" />Saavan</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Relaxing Songs</h1>
+      <div class="songsList">
+        <div class="songItems">
+          <img class="songIcon" src="baaton ko teri.jpg" />
+          <span class="songName" id="1">Baaton Ko Teri</span>
+          <span class="songTime">04:29</span>
+          <i class="material-icons songItemPlay" id="playArrow">play_arrow</i>
+        </div>
+        <br />
+        <div class="songItems">
+          <img class="songIcon" src="tujhe-kitna-chahne-lage.jpg" />
+          <span class="songName" id="2">Tujhe Kitna Chahne Lage</span>
+          <span class="songTime">04:29</span>
+          <i class="material-icons songItemPlay" id="playArrow">play_arrow</i>
+        </div>
+        <br />
+        <div class="songItems">
+          <img class="songIcon" src="sanam re.jpg" />
+          <span class="songName" id="3">Sanam Re</span>
+          <span class="songTime">04:29</span>
+          <i class="material-icons songItemPlay" id="playArrow">play_arrow</i>
+        </div>
+        <br />
+        <div class="songItems">
+          <img class="songIcon" src="baller.jpg" />
+          <span class="songName" id="4">Shubh Baller</span>
+          <span class="songTime">04:29</span>
+          <i class="material-icons songItemPlay" id="playArrow">play_arrow</i>
+        </div>
+        <br />
+        <div class="songItems">
+          <img class="songIcon" src="never fold.jpg" />
+          <span class="songName" id="5">Never Fold</span>
+          <span class="songTime">04:29</span>
+          <i class="material-icons songItemPlay" id="playArrow">play_arrow</i>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        max="100"
+        value="0"
+      />
+      <div class="icons">
+        <i class="fa-solid fa-backward-step" id="masterPrevious"></i>
+        <i class="fa-regular fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-forward-step" id="masterPlay"></i>
+        <!-- <i class="material-icons songItemPlay" id="masterNext">skip_next</i> -->
+        <!-- <i class="material-icons songItemPlay" id="masterPrevious">skip_previous</i> -->
+        <!-- <i class="material-icons songItemPlay" id="masterPlay">play_circle</i> -->
+        <!-- <i class="material-icons songItemPlay" id="masterPause"></i> -->
+      </div>
+      <div class="songInfo">
+        <img src="musicGIF.jpg" id="musicGIF" />Baaton ko Teri
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/dc21eafd37.js" crossorigin="anonymous"></script>
+    <script src="scrip.js"></script>
+  </body>
+</html>
